@@ -1,0 +1,140 @@
+.bg-primary-color {
+  background-color: #21AD3F;
+}
+
+.bg-secondary-color {
+  background-color: #AD1022;
+}
+
+.bg-secondary-color:hover {
+  background-color: #E65E6E;
+}
+
+.separator {
+  margin-top: 120px;
+}
+
+.btnUser, .btnAdd, .btnLogin, .btnBack {
+  font-size: 30px;
+  border:solid white 3px;
+  color: white;
+}
+
+.btnUser:hover, .btnAdd:hover, .btnLogin:hover, .btnBack:hover {
+  border:solid white 3px;
+  color: white;
+}
+
+.btnLogin, .btnLogin:hover, .btnBack, .btnBack:hover {
+  border: none;
+}
+
+.logo img {
+  height: 100px;
+  width: auto;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.titles {
+  font-size: 30px;
+  padding: 10px;
+}
+
+a, a:hover, a:active {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+/* -------------- */
+/* class-list.php */
+/* -------------- */
+
+.classe-list, .student-list, .editing-list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.classe {
+  display: flex;
+  justify-content: center;
+}
+
+.hoverwrap {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  width: 30rem;
+}
+
+@media screen and (max-width: 550px) {
+  .hoverwrap {
+    width: 90%;
+  }
+
+  .logo img {
+    height: 17vw;
+    width: auto;
+  }
+
+  .btnUser, .btnAdd, .btnLogin, .btnBack {
+    font-size: 5vw;
+  }
+
+  .separator {
+    margin-top: 11vw;
+  }
+
+  .titles {
+    font-size: 5vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+}
+
+.hoverwrap img { width: 100%; }
+
+.hovercap {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+ 
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+}
+
+.hovercap {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+/* ---------------- */
+/* student-list.php */
+/* ---------------- */
+
+.student-list .hoverwrap {
+  width: 15rem;
+}
+
+
+/* ----------------- */
+/* edit-elements.php */
+/* ----------------- */
+
+.btnBack {
+  width: 25%;
+}
